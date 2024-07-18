@@ -6,20 +6,7 @@ $third-color: #99e2d0;
 $background-color: #f2f2f2;
 
 /* PAGE */
-@font-face {
-  font-family: "Roboto";
-  src: url("font/Roboto/Roboto.ttf");
-}
 
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("font/Roboto/Roboto-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Roboto-Light";
-  src: url("font/Roboto/Roboto-Light.ttf");
-}
 
 /* KEYFRAMES */
 
@@ -93,7 +80,7 @@ input[type="checkbox"] {
   align-items: center;
   margin: 30px;
   color: white;
-  background: linear-gradient($color-secondary, $color-primary);
+  background: linear-gradient($secondary-color, $main-color);
   border-radius: 40px;
   box-shadow: 2px 5px 20px rgb(167, 167, 167);
 
@@ -133,7 +120,7 @@ input[type="checkbox"] {
   }
 
   &_searchInput:focus {
-    outline-color: $color-primary;
+    outline-color: $main-color;
   }
 }
 
@@ -148,7 +135,7 @@ i.fa-solid.location_icon {
 /* RESTAURANTS */
 
 .restaurants {
-  background-color: $bg-clr-main;
+  background-color: $background-color;
   margin-top: 40px;
   padding: 10px 0px 50px 0px;
 
