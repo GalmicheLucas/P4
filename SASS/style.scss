@@ -4,6 +4,7 @@ $main-color: #9356dc;
 $secondary-color: #ff79da;
 $third-color: #99e2d0;
 $background-color: #f2f2f2;
+
 /* PAGE */
 @font-face {
   font-family: "Roboto";
@@ -143,3 +144,24 @@ i.fa-solid.location_icon {
   margin-left: 10px;
 }
 /* LOCATION */
+
+/* RESTAURANTS */
+
+.restaurants {
+  background-color: $bg-clr-main;
+  margin-top: 40px;
+  padding: 10px 0px 50px 0px;
+
+  &_card {
+    position: relative;
+    margin: 10px 0px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #0000002e;
+    box-sizing: border-box;
+    width: 47%;
+    transition: transform 250ms ease-in-out;
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}
