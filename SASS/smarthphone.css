@@ -10,5 +10,9 @@
   .restaurants_card {
     width: 95%;
   }
+  .restaurants_card_img {
+    width: 95%;
+    height: 250px;
+  }
   /*FOOTER*/
 }/*# sourceMappingURL=smarthphone.css.map */
