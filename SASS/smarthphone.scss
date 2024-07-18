@@ -11,10 +11,13 @@
   /*LOCATION*/
 
   /*RESTAURANTS*/
-  .restaurants_card {
+  .restaurants_card{
     width: 95%;
 
-  
+  &_img{
+    width: 95%;
+    height: 250px;
+  }
 }
   /*FOOTER*/
 }
