@@ -48,9 +48,9 @@ input[type="checkbox"] {
   }
 }
 
-/* Bouton */
+/* Explorer */
 
-.bouton {
+.explorer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,12 +59,12 @@ input[type="checkbox"] {
   padding: 50px 5px 40px 5px;
 
   &_title {
-    font-size: 33px;
+    font-size: 24px;
     margin: 10px 5px;
   }
 
   &_subtitle {
-    font-size: 23px;
+    font-size: 18px;
   }
 
   &_link {
@@ -221,6 +221,40 @@ i.fa-solid.location_icon {
     border-radius: 20px 20px 0px 0px;
   }
 
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+
+    & input[type="checkbox"]:checked~.icons-liked {
+        display: inline-block;
+        opacity: 1;
+    }
+    
+    & input[type="checkbox"]:checked~.icons-notLiked {
+        display: none;
+    }
+
+    &:hover .icons-liked {
+        opacity: 1;
+    }
+
+    &-notLiked {
+        position: absolute;
+    }
+    
+    &-liked {
+        position: relative;
+        background: linear-gradient(160deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: opacity 500ms ease-in-out;
+        opacity: 0;
+    }
+}
+
   .new {
     display: flex;
     justify-content: center;
@@ -238,6 +272,10 @@ i.fa-solid.location_icon {
     animation: new 1600ms ease-in-out;
     animation-iteration-count: infinite;
   }
+}
+
+.img{
+  width: 100%;
 }
 
 /* FOOTER */
