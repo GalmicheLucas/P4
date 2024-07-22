@@ -6,13 +6,35 @@
     background-color: rgba(220, 220, 220, 0.3843137255);
   }
   /*LOCATION*/
+  /* OPERATION */
+  .operation_cards {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+  }
+  .operation_cards_card {
+    width: 95%;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 20px rgba(167, 167, 167, 0.5);
+  }
+  /* OPERATION */
   /*RESTAURANTS*/
-  .restaurants_card {
+  .restaurants_cards {
     width: 95%;
   }
-  .restaurants_card_img {
+  .restaurants_cards_img {
     width: 95%;
     height: 250px;
   }
   /*FOOTER*/
+  .footer {
+    padding-bottom: 20px;
+  }
+  .footer_links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    padding: 0;
+    padding-inline-start: 20px;
+  }
 }/*# sourceMappingURL=smarthphone.css.map */
