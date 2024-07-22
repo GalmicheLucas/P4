@@ -10,22 +10,14 @@
   .restaurants_card {
     width: 95%;
   }
+  .restaurants_card_img {
+    width: 95%;
+    height: 250px;
+  }
   /*FOOTER*/
 }
 /* General */
 /* PAGE */
-/*@font-face {
-  font-family: "Roboto";
-  src: url("font/Roboto/Roboto.ttf");
-}
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("font/Roboto/Roboto-Bold.ttf");
-}
-@font-face {
-  font-family: "Roboto-Light";
-  src: url("font/Roboto/Roboto-Light.ttf");
-}*/ 
 /* KEYFRAMES */
 body {
   font-family: "Roboto", "Sans serif";
@@ -143,9 +135,59 @@ i.fa-solid.location_icon {
 }
 
 /* LOCATION */
+/* OPERATION */
+.operation {
+  padding: 30px 15px;
+}
+.operation_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+.operation_cards_card {
+  display: flex;
+  align-items: center;
+  background-color: rgba(231, 231, 231, 0.3843137255);
+  width: 30%;
+  height: 100px;
+  box-shadow: 2px 5px 20px rgba(167, 167, 167, 0.5);
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: default;
+  transition: transform 250ms ease-in-out;
+}
+.operation_cards_card:hover {
+  transform: scale(1.01);
+  background-color: rgba(146, 86, 220, 0.1294117647);
+}
+.operation_cards_card:hover .operation_cards_card_icon {
+  color: #9356dc;
+}
+.operation_cards_card_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 35px;
+  height: 35px;
+  margin-left: -20px;
+  color: white;
+  background-color: #9356dc;
+  border-radius: 30px;
+}
+.operation_cards_card_icon {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0px 20px;
+  font-size: 25px;
+}
+.operation_cards_card_title {
+  padding-right: 5px;
+}
+
+/* OPERATION */
 /* RESTAURANTS */
 .restaurants {
-  background-color: #9356dc;
+  background-color: #f2f2f2;
   margin-top: 40px;
   padding: 10px 0px 50px 0px;
 }
@@ -160,4 +202,44 @@ i.fa-solid.location_icon {
 }
 .restaurants_card:hover {
   transform: scale(1.01);
+}
+.restaurants_card_img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 280px;
+}
+.restaurants .cards {
+  width: 100%;
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+.restaurants .new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 18px;
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #4d7052;
+  z-index: 40;
+  background-color: #99e2d0;
+  animation: new 1600ms ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.img {
+  width: 100%;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #313131;
 }/*# sourceMappingURL=main.css.map */
