@@ -124,7 +124,6 @@ i.fa-solid.location_icon {
 .operation_cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   padding-left: 10px;
 }
 .operation_cards_card {
@@ -193,7 +192,7 @@ i.fa-solid.location_icon {
   height: 280px;
 }
 .restaurants .cards {
-  width: 100%;
+  width: 95%;
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
