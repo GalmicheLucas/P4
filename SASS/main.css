@@ -214,14 +214,11 @@ i.fa-solid.location_icon {
 }
 .restaurants_card {
   position: relative;
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0px 20px 25px;
   border-radius: 20px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1803921569);
   box-sizing: border-box;
   width: 95%;
-  height: 280px;
-  -o-object-fit: cover;
-     object-fit: cover;
   transition: transform 250ms ease-in-out;
 }
 .restaurants_card:hover {
