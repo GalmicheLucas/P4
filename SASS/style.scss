@@ -138,7 +138,6 @@ i.fa-solid.location_icon {
   &_cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     padding-left: 10px;
 
     &_card {
@@ -152,6 +151,7 @@ i.fa-solid.location_icon {
       font-size: 16px;
       cursor: default;
       transition: transform 250ms ease-in-out;
+     
       &:hover {
         transform: scale(1.01);
         background-color: #9256dc21;
@@ -215,7 +215,7 @@ i.fa-solid.location_icon {
   }
 
   .cards {
-    width: 100%;
+    width: 95%;
     height: 280px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
