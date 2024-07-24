@@ -2,6 +2,8 @@
 /* PAGE */
 /* KEYFRAMES */
 body {
+  margin: 0 0;
+  font-size: 25px;
   font-family: "Roboto", "Sans serif";
 }
 body a {
@@ -30,7 +32,6 @@ input[type=checkbox] {
 }
 .header_logo {
   margin: auto;
-  width: 200px;
   padding: 15px 0px 15px 0px;
 }
 
@@ -52,9 +53,9 @@ input[type=checkbox] {
   font-weight: 300;
 }
 .explorer_link {
-  width: 320px;
-  height: 70px;
-  font-size: 23px;
+  width: 55%;
+  height: 110px;
+  font-size: 35px;
 }
 
 .btn_main {
@@ -132,11 +133,11 @@ i.fa-solid.location_icon {
   box-shadow: 0 5px 15px;
   cursor: pointer;
   display: flex;
-  font-size: 20px;
-  margin: 1em 0 0 0;
+  font-size: 25px;
+  margin: 30px 95px;
   transition: all 0.2s ease-in-out;
-  height: 75px;
-  width: 323px;
+  height: 110px;
+  width: 75%;
 }
 .operation_cards_card:hover {
   transform: scale(1.01);
@@ -149,8 +150,8 @@ i.fa-solid.location_icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 35px;
-  height: 35px;
+  min-width: 45px;
+  height: 45px;
   margin-left: -20px;
   color: white;
   background-color: #9356dc;
@@ -159,10 +160,11 @@ i.fa-solid.location_icon {
 .operation_cards_card_icon {
   color: #9356dc;
   padding: 0px 20px;
-  font-size: 25px;
+  font-size: 45px;
 }
 .operation_cards_card_title {
   padding-right: 5px;
+  font-size: 35px;
 }
 
 /* OPERATION */
