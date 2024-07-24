@@ -45,11 +45,12 @@ input[type=checkbox] {
   padding: 50px 5px 40px 5px;
 }
 .explorer_title {
-  font-size: 24px;
+  font-size: 46px;
   margin: 10px 5px;
 }
 .explorer_subtitle {
-  font-size: 18px;
+  font-size: 28px;
+  font-weight: 200;
 }
 .explorer_link {
   width: 320px;
@@ -77,7 +78,6 @@ input[type=checkbox] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 65px;
   padding: 5px;
   background-color: #dedcdc;
 }
@@ -118,24 +118,26 @@ i.fa-solid.location_icon {
 /* LOCATION */
 /* OPERATION */
 .operation {
-  padding: 30px 15px;
-}
-.operation_cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+.operation_cards {
   padding-left: 10px;
+  margin-left: 24px;
 }
 .operation_cards_card {
-  display: flex;
   align-items: center;
-  background-color: rgba(231, 231, 231, 0.3843137255);
-  width: 30%;
-  height: 100px;
-  box-shadow: 2px 5px 20px rgba(167, 167, 167, 0.5);
-  border-radius: 30px;
-  font-size: 16px;
-  cursor: default;
-  transition: transform 250ms ease-in-out;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px;
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  margin: 1em 0 0 0;
+  padding: 1.5em 5em;
+  transition: all 0.2s ease-in-out;
+  padding: 30px 15px 0px 0px;
 }
 .operation_cards_card:hover {
   transform: scale(1.01);
