@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  .body {
+    max-width: 768px;
+  }
   /*Logo = Navigation */
   /* bouton */
   .bouton {
@@ -19,10 +22,10 @@
   }
   /* OPERATION */
   /*RESTAURANTS*/
-  .restaurants_cards {
+  .restaurants {
     width: 95%;
   }
-  .restaurants_cards_img {
+  .restaurants_img {
     width: 95%;
     height: 250px;
   }
