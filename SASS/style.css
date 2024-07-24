@@ -44,11 +44,11 @@ input[type=checkbox] {
   padding: 50px 5px 40px 5px;
 }
 .explorer_title {
-  font-size: 46px;
+  font-size: 60px;
   margin: 10px 5px;
 }
 .explorer_subtitle {
-  font-size: 28px;
+  font-size: 48px;
   font-weight: 300;
 }
 .explorer_link {
@@ -64,7 +64,7 @@ input[type=checkbox] {
   margin: 30px;
   color: white;
   background: linear-gradient(#ff79da, #9356dc);
-  border-radius: 40px;
+  border-radius: 50px;
   box-shadow: 2px 5px 20px rgb(167, 167, 167);
 }
 .btn_main:hover {
@@ -135,6 +135,8 @@ i.fa-solid.location_icon {
   font-size: 20px;
   margin: 1em 0 0 0;
   transition: all 0.2s ease-in-out;
+  height: 75px;
+  width: 323px;
 }
 .operation_cards_card:hover {
   transform: scale(1.01);
